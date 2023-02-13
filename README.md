@@ -6,9 +6,17 @@
 
 <h1 align="center">Movie-reviews</h1>
 
-  <p align="left"><img src= "wordcloud.png " alt="WORD CLOUD" width="400" height="400"></p> 
-  <p align="justify"> NLP analysis to understand public sentiment towards different films on IMDb. Implemented a pre-processing pipeline for EDA and compared multiple sentiment analysis models including TextBlob, VADER, and word2vec to identify the best approach for understanding the opinions expressed in the reviews.</p>
-   
+<table>
+  <tr>
+    <td width="500">
+      <img src="wordcloud.png" alt="WORD CLOUD" width="400" height="400" />
+    </td>
+    <td width="500">
+      NLP analysis to understand public sentiment towards different films on IMDb. Implemented a pre-processing pipeline for EDA and compared multiple sentiment analysis models including TextBlob, VADER, and word2vec to identify the best approach for understanding the opinions expressed in the reviews.
+    </td>
+  </tr>
+</table>
+
 
 
 
