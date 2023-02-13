@@ -31,28 +31,46 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Stable Baselines3 requires Python 3.7+.
-
-Note: Stable-Baselines3 supports PyTorch >= 1.11
+NLTK requires Python versions >=3.7.
 
 
 ### Installation
 
-* gym-super-mario-bros
+* TextBlob
   ```sh
-  pip install gym-super-mario-bros
+  pip install -U textblob
   ```
   
   
-* nes-py
+* VADER
   ```sh
-  pip install nes-py
+  pip install vaderSentiment
   ```
-* Stable Baselines3
+* NLTK
 
   ```sh
-  pip install stable-baselines3[extra]
+  pip install --user -U nltk
   ```  
-* <a href="https://pytorch.org/get-started/locally/">Download pytorch</a>
+
+<!-- RESULTS -->
+## Results
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Accuracy</th>
+  </tr>
+  <tr>
+    <td>TextBlob</td>
+    <td>0.80</td>
+  </tr>
+  <tr>
+    <td>VADER</td>
+    <td>0.76</td>
+  </tr>
+  <tr>
+    <td>Word2Vec</td>
+    <td>0.87</td>
+  </tr>
+</table>
 
 
