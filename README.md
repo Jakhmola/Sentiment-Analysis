@@ -29,9 +29,9 @@
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Dataset
 
-NLTK requires Python versions >=3.7.
+Only first 2 parts (1M reviews) are used for this analysis. <a href="https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset/">Download dataset.</a>
 
 
 ### Installation
